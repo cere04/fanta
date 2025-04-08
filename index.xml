@@ -1,1 +1,214 @@
-prova
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>FriendStocks - Competizione tra Amici</title>
+    <link rel="stylesheet" href="stylesheet.css"/>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <i class="fas fa-chart-line"></i>
+            <span>FriendStocks</span>
+        </div>
+        <button class="auth-btn">
+            <i class="fas fa-user"></i>
+            <span>Accedi / Registrati</span>
+        </button>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Investi nelle azioni dei tuoi amici!</h1>
+            <p>Acquista azioni basate sulle loro attività settimanali e guadagna punti quando le previsioni si avverano. Chi sarà il miglior investitore?</p>
+            <div class="cta-buttons">
+                <a href="#" class="cta-btn primary-btn pulse">Inizia la Competizione</a>
+                <a href="#" class="cta-btn secondary-btn">Scopri come funziona</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <h2 class="section-title">Perché partecipare?</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-trophy"></i>
+                </div>
+                <h3>Competizione Divertente</h3>
+                <p>Metti alla prova la tua capacità di prevedere le azioni dei tuoi amici e vinci fantastici premi.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-hand-holding-usd"></i>
+                </div>
+                <h3>Economia Virtuale</h3>
+                <p>Acquista e vendi azioni con la nostra moneta virtuale senza rischi reali.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <h3>Connettiti con gli Amici</h3>
+                <p>Un modo nuovo per interagire con il tuo gruppo e scoprire chi si conosce davvero.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="how-it-works">
+        <h2 class="section-title">Come funziona?</h2>
+        <div class="steps">
+            <div class="step">
+                <h3>Crea il tuo account</h3>
+                <p>Registrati gratuitamente e unisciti alla competizione con il tuo gruppo di amici.</p>
+            </div>
+            <div class="step">
+                <h3>Acquista azioni</h3>
+                <p>Scegli tra centinaia di azioni possibili e investi quelle che pensi si avvereranno.</p>
+            </div>
+            <div class="step">
+                <h3>Guadagna punti</h3>
+                <p>Quando un'azione che hai acquistato si verifica, guadagni punti in base al suo valore.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="leaderboard-preview">
+        <h2 class="section-title">Classifica Attuale</h2>
+        <div class="leaderboard-container">
+            <div class="leaderboard-header">
+                <h3 class="leaderboard-title">Top Investitori</h3>
+                <a href="#" class="view-all">Vedi tutto</a>
+            </div>
+            <ul class="leaderboard-list">
+                <li class="leaderboard-item">
+                    <div class="player-info">
+                        <span class="player-rank">1</span>
+                        <div class="player-avatar">M</div>
+                        <span class="player-name">Marco Rossi</span>
+                    </div>
+                    <span class="player-score">1,245 punti</span>
+                </li>
+                <li class="leaderboard-item">
+                    <div class="player-info">
+                        <span class="player-rank">2</span>
+                        <div class="player-avatar">S</div>
+                        <span class="player-name">Sofia Bianchi</span>
+                    </div>
+                    <span class="player-score">1,120 punti</span>
+                </li>
+                <li class="leaderboard-item">
+                    <div class="player-info">
+                        <span class="player-rank">3</span>
+                        <div class="player-avatar">L</div>
+                        <span class="player-name">Luca Verdi</span>
+                    </div>
+                    <span class="player-score">980 punti</span>
+                </li>
+                <li class="leaderboard-item">
+                    <div class="player-info">
+                        <span class="player-rank">4</span>
+                        <div class="player-avatar">A</div>
+                        <span class="player-name">Anna Neri</span>
+                    </div>
+                    <span class="player-score">875 punti</span>
+                </li>
+                <li class="leaderboard-item">
+                    <div class="player-info">
+                        <span class="player-rank">5</span>
+                        <div class="player-avatar">G</div>
+                        <span class="player-name">Giovanni Gialli</span>
+                    </div>
+                    <span class="player-score">820 punti</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="trending-actions">
+        <h2 class="section-title">Azioni in Tendenza</h2>
+        <div class="actions-grid">
+            <div class="action-card">
+                <div class="action-header">
+                    <span>#Fitness</span>
+                    <span class="action-price">50 coin</span>
+                </div>
+                <div class="action-body">
+                    <h3 class="action-title">Vai in palestra 3 volte</h3>
+                    <p class="action-description">L'utente andrà in palestra almeno 3 volte questa settimana</p>
+                </div>
+                <div class="action-footer">
+                    <span class="action-points">+150 punti</span>
+                    <button class="buy-btn">Acquista</button>
+                </div>
+            </div>
+            <div class="action-card">
+                <div class="action-header">
+                    <span>#Social</span>
+                    <span class="action-price">30 coin</span>
+                </div>
+                <div class="action-body">
+                    <h3 class="action-title">Posta su Instagram</h3>
+                    <p class="action-description">L'utente pubblicherà almeno 1 post su Instagram questa settimana</p>
+                </div>
+                <div class="action-footer">
+                    <span class="action-points">+90 punti</span>
+                    <button class="buy-btn">Acquista</button>
+                </div>
+            </div>
+            <div class="action-card">
+                <div class="action-header">
+                    <span>#Studio</span>
+                    <span class="action-price">75 coin</span>
+                </div>
+                <div class="action-body">
+                    <h3 class="action-title">Studia 10 ore</h3>
+                    <p class="action-description">L'utente studierà almeno 10 ore questa settimana</p>
+                </div>
+                <div class="action-footer">
+                    <span class="action-points">+225 punti</span>
+                    <button class="buy-btn">Acquista</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>FriendStocks</h3>
+                <p>La piattaforma che trasforma le attività dei tuoi amici in un gioco di investimento divertente e competitivo.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-discord"></i></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>Link Utili</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Come funziona</a></li>
+                    <li><a href="#">Classifica</a></li>
+                    <li><a href="#">Azioni disponibili</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Contatti</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Supporto</a></li>
+                    <li><a href="#">Feedback</a></li>
+                    <li><a href="#">Diventa un beta tester</a></li>
+                    <li><a href="#">Lavora con noi</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>2023 FriendStocks. Tutti i diritti riservati.</p>
+        </div>
+    </footer>
+</body>
+</html>
